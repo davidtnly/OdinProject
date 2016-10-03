@@ -5,14 +5,23 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="css/testcss.css">
 	</head>
-	<body>
+	<body>		
 		<div class="wrap">
-			<h1>iamdavidly</h1>
+			<h1>LOGO.PNG</h1>
+			<div class="nav">	
+			<ul>
+				<li> <a href="#">Home</a>
+				</li>
+				<li> <a href="#">About</a>
+				</li>
+				<li> <a href="#">Contact</a>
+				</li>
+			</ul>
+		</div>			
 			<div class="content">
 				<h2> Main Content Heading </h2>
 				<p> This is my website. </p>
-			</div>
-
+			</div>			
 			<aside>
 				<h2> Sidebar </h2>
 				<ul>
@@ -26,6 +35,24 @@
 						<a href="#">Contact</a>
 					</li>
 				</ul>
+				<form action="" method="post">
+					<label for="name">Your Name: </label>
+					<input id="name" name="name"/>
+						<br>
+						<br>
+					<label for="comments">Any comments?</label>
+					<textarea id="comments" name="comments" rows="10" cols="20">
+					</textarea>
+					<li>
+						<label for ="css">Do you like CSS?</label>
+						<input type="checkbox" name="css" id="css"/>
+					</li>
+					<li>
+						<label for="radio">Favorite Language</label>
+						<input type="radio" name="radio"/>
+					</li>
+					<input type="submit" value="Click to Submit"/>
+				</form> <!-- action attribute not learned here-->
 			</aside>
 			<footer>Footer
 			</footer>

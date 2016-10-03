@@ -1,9 +1,38 @@
+* {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	background-color: #a7e0ee;
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+
 .wrap {
 	min-width: 600px;
 	width: 80%;
 	margin: auto;
 	background-color: #a7e0ee;
 	overflow: hidden; /*look up this vs footer { clear }*/
+}
+
+.nav ul li {
+	display: inline;
+	padding-right: 5px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+}
+
+.nav ul li a:hover {
+	color: #ffffff;
+	font-weight: bold;
 }
 
 .content, aside {
@@ -20,14 +49,32 @@ aside {
 	background: green;
 	float: left;
 	width: 20%;
+	text-align: center;
 }
 
 aside ul {
 	padding-left: 0;
 	list-style: none;
+	text-align: center;
+	text-decoration: none;
 }
 
 footer {
+	clear: both;
+}
+
+form li {
+	list-style: none;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+	padding-bottom: 5px;
+}
+
+h1 {
+	background: url(../img/logo.png) no-repeat;
 	clear: both;
 }
 
