@@ -18,7 +18,6 @@ body {
 	margin-top: 20px;
 	height: 40px;
 	background: #a7e0ee;
-
 }
 
 .headerimg {
@@ -64,15 +63,17 @@ body {
 }
 
 /* needs FIXING ********************************************/
-.mainimg {
+.selfimg {
 	background-color: #a7e0ee;
 }
 
-.mainimg img {
+.selfimg img {
 	float: right;
+	margin-top: 10px;
 	margin-left: 20px;
 	margin-bottom: 10px;
 	margin-right: 40px;
+	clear: right;
 }
 
 /* scrolling down the blog posts */
@@ -81,22 +82,34 @@ body {
 	margin-left: 30px;
 	margin-right: 40px;
 	overflow: scroll;
+	clear: left;
 }
 
 .blog ol {
 	list-style: none;
 }
 
-/* has footer stay in place at the bottom */
+/* has footer stay in place at the bottom  NEEDS FIXING no different scales */
 .footer {
 	background-color: #a7e0ee;
 	width: 100%;
 	height: 50px;
-	position: absolute;
+	position: static;
 	margin-top: 20px;
-	left: 0;
-	right: 0;
+	left: .15rem;
+	right: .15rem;
+	bottom: 0rem;
 	text-align: center;
 	padding: 1rem;
+	border-radius: 5px;
 }
 
+.selfimg2 img {
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	z-index: 9999;	
+}
