@@ -5,6 +5,7 @@
 
 body {
 	font-family: sans-serif;
+	min-width: 670px;
 }
 
 .header {
@@ -15,6 +16,7 @@ body {
 }
 
 .navbar {
+	width: 100%;
 	margin-top: 20px;
 	height: 40px;
 	background: #a7e0ee;
@@ -23,7 +25,7 @@ body {
 .headerimg {
 	width: 100%;
 	height: auto;
-	margin: 0 auto;
+	margin: auto;
 	background: black;
 }
 
@@ -73,7 +75,7 @@ body {
 	margin-left: 20px;
 	margin-bottom: 10px;
 	margin-right: 40px;
-	clear: right;
+	background: red;
 }
 
 /* scrolling down the blog posts */
@@ -96,7 +98,7 @@ body {
 	height: 50px;
 	position: static;
 	margin-top: 20px;
-	left: .15rem;
+	left: 0;
 	right: .15rem;
 	bottom: 0rem;
 	text-align: center;

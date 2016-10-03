@@ -1,0 +1,35 @@
+.wrap {
+	min-width: 600px;
+	width: 80%;
+	margin: auto;
+	background-color: #a7e0ee;
+	overflow: hidden; /*look up this vs footer { clear }*/
+}
+
+.content, aside {
+	height: 600px;
+}
+
+.content {
+	background: red;
+	float: left;
+	width: 80%;
+}
+
+aside {
+	background: green;
+	float: left;
+	width: 20%;
+}
+
+aside ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+footer {
+	clear: both;
+}
+
+
+
