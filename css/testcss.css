@@ -17,7 +17,7 @@ a {
 	min-width: 600px;
 	width: 80%;
 	margin: auto;
-	background-color: #a7e0ee;
+	background-color: #949798;
 	overflow: hidden; /*look up this vs footer { clear }*/
 }
 
@@ -40,13 +40,15 @@ a {
 }
 
 .content {
-	background: red;
+	min-width: 340px;
+	background: #eeac7e;
 	float: left;
 	width: 80%;
+	margin: auto;
 }
 
 aside {
-	background: green;
+	background: #6be7bf;
 	float: left;
 	width: 20%;
 	text-align: center;
@@ -61,6 +63,7 @@ aside ul {
 
 footer {
 	clear: both;
+	color: #ffffff;
 }
 
 form li {
@@ -75,8 +78,45 @@ label {
 
 h1 {
 	background: url(../img/logo.png) no-repeat;
-	clear: both;
+	text-indent: -9999px;
+	width: 400px;
+	height: 150px;
+}
+
+article img {
+	z-index: 9999;
+	width: 200px;
+	height: 400px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.preview {
+	min-width: 340px;
+	float: right; /*div has default display of block*/
+	width: 340px;
+	margin-left: 5px;
 }
 
 
+
+
+
+/* TYPOGRAPHY {
+	font-size: 12px;
+	text-align: center;
+	margin: 50px;
+	font-family: sans-serif;
+	letter-spacing: -5px;
+	color: #666;
+	text-transform: lowercase;
+	text-shadow: 
+		0 1px 0 black,
+		5px 6px 1 red;
+	font-variant: small-caps;
+	<link href GOOGLE API FONTS>	
+}*/
+
+/*able to use position: relative --> now can specify values: top, right, bottom, left */
 
