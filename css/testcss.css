@@ -7,14 +7,18 @@ a {
 }
 
 .nav {
-	background-color: #a7e0ee;
+	background-color: white;
 	margin: 0;
 	padding: 0;
 	top: 0;
+	border-color: #949798;
+	border-width: 60%;
+	border-radius: 0 0 5px 5px;
 }
 
 .wrap {
-	min-width: 600px;
+	min-width: 750px;
+	max-width: 750px;
 	width: 80%;
 	margin: auto;
 	background-color: #949798;
@@ -24,14 +28,17 @@ a {
 .nav ul li {
 	display: inline;
 	padding-right: 5px;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 .nav ul li a {
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .nav ul li a:hover {
-	color: #ffffff;
+	color: #a7e0ee;
 	font-weight: bold;
 }
 
@@ -64,6 +71,8 @@ aside ul {
 footer {
 	clear: both;
 	color: #ffffff;
+	width: 100%;
+	height: 50px;
 }
 
 form li {
@@ -81,6 +90,7 @@ h1 {
 	text-indent: -9999px;
 	width: 400px;
 	height: 150px;
+	margin-bottom: 0;
 }
 
 article img {
@@ -88,8 +98,8 @@ article img {
 	width: 200px;
 	height: 400px;
 	float: left;
-	margin-right: 20px;
-	margin-left: 10px;
+	margin-right: 10px;
+	margin-left: 25px;
 }
 
 .preview {
@@ -97,11 +107,64 @@ article img {
 	float: right; /*div has default display of block*/
 	width: 340px;
 	margin-left: 5px;
+	margin-top: 1px;
 }
 
+.preview h2 {
+	font-size: 32px;
+	line-height: 40px;
+/*	letter-spacing: -1px;*/
+}
 
+article h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/*moves article headings to the left beacause default paddings */
+.meta {
+	padding-left: 0;
+	margin-top: 0;
+}
+.meta a, .post_info {
+	color: #276056;
+	font-style: italic;
+	font-size: 14px;
+}
 
+.meta a:after {
+	content: '\\';
+	padding: 0 5px;
+	margin: 0;
+}
+.meta li {
+	display: inline;
 
+}
+
+.meta li:last-child:after {
+	content: none;
+}
+
+.post_info {
+	background: #eeac7e;
+	color: #999;
+	padding: 2px;
+	float: left;
+}
+
+.post_info a {
+	color: #999;
+	text-decoration: none;
+}
+
+.post_info a:hover {
+	color: black;
+}
+
+.body {
+	clear:both;
+	margin-right: 20px;
+}
 
 /* TYPOGRAPHY {
 	font-size: 12px;
