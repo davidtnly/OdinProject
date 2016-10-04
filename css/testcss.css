@@ -6,6 +6,11 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: black;
+	font-weight: bold;
+}
+
 .nav {
 	background-color: white;
 	margin: 0;
@@ -120,6 +125,12 @@ article h2 {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
+article .continue {
+	float: right;
+	margin-right: 35px;
+}
+
 /*moves article headings to the left beacause default paddings */
 .meta {
 	padding-left: 0;
@@ -164,6 +175,7 @@ article h2 {
 .body {
 	clear:both;
 	margin-right: 20px;
+	line-height: 25px;
 }
 
 /* TYPOGRAPHY {
