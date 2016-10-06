@@ -204,10 +204,10 @@ nav a {
 */
 
 footer {
-	clear:both;
-	margin-top: 30px;
-	border-top: 1px solid #d1d1d1;
-	padding-top: 18px;
+	clear: both;
+	margin: 10px 0;
+	border-top: 1px solid #d1d1d1 !important;
+	padding-top: 10px;
 }
 
 
