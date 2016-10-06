@@ -1,0 +1,213 @@
+
+/*
+ *********************
+ * =grid overrides
+ *********************
+*/
+
+/*.grid_3 {
+	margin-left: 60px;
+}*/
+
+/*
+ *********************
+ * =misc
+ *********************
+*/
+
+.container_24 {
+	margin-top: 10px;
+}
+
+blockquote {
+	position: relative;
+}
+
+blockquote, blockquote p {
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+}
+
+a {
+	color: #7e7e7e;
+	text-decoration: none;
+}
+
+p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+
+h1, h2 {
+	letter-spacing: -1px;
+	text-transform: lowercase;
+}
+
+h2 {
+	font-size: 26px;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 1em;
+}
+
+a:hover {
+	color: black;
+}
+
+li a {
+	margin-left: 24px;
+}
+
+.button {
+	background: #1773b4;
+	padding: 6px;
+	color: white;
+}
+
+.button:hover {
+	color: white;
+}
+
+/*
+ *********************
+ * =header
+ *********************
+*/
+
+header {
+	overflow: hidden;
+}
+
+header h1 {
+	text-indent: -9999px;
+	margin: 10px 10px 22px;
+	float: left; /*this allowed my nav list to go back in place because this took up empty space, near ending..*/
+	margin-bottom: 10px;
+}
+
+header h1 a {
+	background: url(../img/header-bg.jpg) no-repeat;
+	float: left;
+	width: 174px;
+	height: 23px;
+}
+
+/* CLEARFIX */
+/*header h1:after {
+	clear: both;
+	display: block;
+	content: ' ';
+	visibility: hidden;
+	height: 1%;
+}*/
+
+/*
+ *********************
+ * =nav
+ *********************
+*/
+
+nav {
+	float: right;
+	padding-top: 12px;
+}
+
+nav li {
+	display: inline;
+	float: right;
+	padding-top: 12px;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+/*
+ *********************
+ * =banner
+ *********************
+*/
+
+.banner {
+	background: url(../img/nature700.jpg) no-repeat;
+	width: 700px;
+	height: 230px;
+	clear: both;
+	position: relative;
+}
+
+.banner h2 {
+	color: white;
+	font-size: 28px;
+	width: 400px;
+	font-weight: normal;
+	position: absolute;
+	bottom: -10px;
+	padding: 0 8px;
+	left: 8px;
+	background: rgba(0, 0, 0, .5);
+
+}
+
+.callout {
+	background: url(../img/food.jpg) no-repeat;
+	height: 230px;
+	width: 230px;
+}
+
+/*
+ *********************
+ * =main
+ *********************
+*/
+
+.main {
+	margin-top: 20px;
+
+}
+
+.main blockquote p {
+	padding-left: 30px;
+}
+
+.main blockquote p:before, 
+.main blockquote p:after {
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+
+.main blockquote p:first-child:before {
+	content: '“';
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+
+.main blockquote p:last-child:after {
+	content: '”';
+	padding-top: 10px;
+	float: right;
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+}
+
+/*
+ *********************
+ * =footer
+ *********************
+*/
+
+footer {
+	clear:both;
+	margin-top: 30px;
+	border-top: 1px solid #d1d1d1;
+	padding-top: 18px;
+}
+
+
