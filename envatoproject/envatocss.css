@@ -66,10 +66,13 @@ li a {
 	background: #1773b4;
 	padding: 6px;
 	color: white;
+	font-size: 11px;
+	text-transform: uppercase;
 }
 
 .button:hover {
 	color: white;
+	background: #176194;
 }
 
 /*
@@ -94,6 +97,10 @@ header h1 a {
 	float: left;
 	width: 174px;
 	height: 23px;
+}
+
+.selected {
+	color: black;
 }
 
 /* CLEARFIX */
@@ -208,6 +215,34 @@ footer {
 	margin: 10px 0;
 	border-top: 1px solid #d1d1d1 !important;
 	padding-top: 10px;
+}
+
+/*
+ *********************
+ * =portfolio
+ *********************
+*/
+
+.work h2, 
+.work h4 {
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.work h2 {
+	margin-bottom: 0;
+}
+
+.work img { 
+	margin-bottom: 20px;
+}
+
+.work h4 {
+	color: #787878;
+	line-height: 1.2em;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 33px;
+	margin-bottom: 30px;
 }
 
 
